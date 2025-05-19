@@ -7,7 +7,7 @@ public:
     string nombre;
     Animal(const string& nombre = "") : nombre(nombre) {}
     void comer() {
-        cout << "El animal esta comiendo" << endl;
+        cout <<nombre<< " Esta comiendo" << endl;
     }
 };
 
@@ -19,7 +19,7 @@ public:
         : Animal(nombre), raza(raza) {}
 
     void ladrar() {
-        cout << "El perro ladra" << endl;
+        cout << nombre << " Esta ladrando" << endl;
     }
 
     void NomRaza(){
