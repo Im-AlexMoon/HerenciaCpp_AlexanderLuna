@@ -1,0 +1,2 @@
+Se observa algo en el reproductor de video
+Se escucha algo en el reproductor de audio
