@@ -1,10 +1,10 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <string>
 using namespace std;
 
 class Instrumento {
 public:
+    Instrumento(){}
     virtual void tocar() {
         cout<<"Estas tocando el instrumento \n";
     }
@@ -12,6 +12,7 @@ public:
 
 class Guitarra : public Instrumento {
 public:
+    Guitarra():Instrumento(){}
     void tocar() override {
         cout<<"Ahora estas tocando la guitarra \n";
     }
