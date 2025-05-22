@@ -9,6 +9,7 @@ class ReproductorMultimedia{
 
 class ReproductorAudio:public ReproductorMultimedia{
     public:
+    ReproductorAudio():ReproductorMultimedia(){}
     void reproducir(){
         cout<<"Se escucha algo en el reproductor de audio"<<endl;
     }
@@ -16,6 +17,7 @@ class ReproductorAudio:public ReproductorMultimedia{
 
 class ReproductorVideo:public ReproductorMultimedia{
     public:
+    ReproductorVideo():ReproductorMultimedia(){}
     void mostrar(){
         cout<<"Se observa algo en el reproductor de video"<<endl;
     }
