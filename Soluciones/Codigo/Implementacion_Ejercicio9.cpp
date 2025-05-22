@@ -4,6 +4,7 @@ using namespace std;
 
 class Sensor {
 protected:
+    Sensor(){}
     void detectarMovimiento() {
         cout << "Movimiento detectado" << endl;
     }
@@ -11,6 +12,7 @@ protected:
 
 class SistemaAlarma : private Sensor {
 public:
+    SistemaAlarma():Sensor(){}
     void verificar() {
         detectarMovimiento();
     }
